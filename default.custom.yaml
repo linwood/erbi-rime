@@ -1,0 +1,14 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.14.2
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Apr 16 21:37:35 2013"
+  rime_version: 0.9.2
+patch:
+  schema_list:
+    - schema: erbi
+  "menu/page-size": 5
+  "key_binder/bindings":
+    - { when: paging, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: equal, send: Page_Down }
+  
